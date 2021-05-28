@@ -42,7 +42,9 @@ Nested 10-fold Cross-Validation in our study
     e.	Evaluate model performance on outer fold i
 4.	Calculate average performance over 10 outer folds
 
-**run_analysis_ft.py** is used to build machine learning models for the FT/NFT recognition task. **run_analysis_iar.py** is used for IAR.
+**run_analysis_ft.py** is used to build machine learning models for the FT/NFT recognition task.
+<br />
+**run_analysis_iar.py** is used for IAR.
 
 ## Requirements 
 To run the code:
