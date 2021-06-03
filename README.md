@@ -9,6 +9,14 @@ The first 20 and last 5 seconds of the raw accelerometer data were eliminated fo
 We examined four machine learning algorithms: 1) logistic regression, 2) support vector machine, 3) decision tree and 4) random forest. For training and testing those models, we used nested crossvalidation (nested-CV) with 10 outer folds and 3 inner folds. The graph and pseudocode of nested crossvalidation are given below.
 The final performance of the model was reported by averaging the performance of the outer folds. Accuracy, recall, precision, F1-score and area under the curve (AUC) metrics were used to evaluate the performance of each machine learning method on the binary classification task. Accuracy, macro recall, macro precision, and macro F1-score were used for multiclass classification.
 
+### Hyperparameters tuned for each classifier
+| Machine learning model  | Parameters tuned                                                                                                                                                                                                  |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Logistic Regression     | 1. Penalization term;<br>2. Regularization strength;<br>3. Algorithms used in the optimization problem                                                                                                            |
+| Support Vector Machine  | 1. Regularization strength;<br>2. Kernel type;<br>3. Kernel coefficient                                                                                                                                           |
+| Decision Tree           | 1. Criterion used to measure the quality of a split;<br>2. The maximum depth of the tree;<br>3. The minimum number of samples required to be at a leaf node                                                       |
+| Random Forest           | 1. The number of trees in the forest;<br>2. The maximum depth of the tree;<br>3. The minimum number of samples required to be at a leaf;<br>4. The number of features to consider when looking for the best split |
+
 ### Nested Crossvalidation
 
 <p align="center">
