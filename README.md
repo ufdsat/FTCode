@@ -21,7 +21,7 @@ The final performance of the model was reported by averaging the performance of 
 
 <p align="center">
   Overview of nested crossvalidation
-  <img align="middle" src="./nested-cv.png" alt="nested-cv"  />
+  <img align="middle" src="./nested-cv.jpeg" alt="nested-cv"  />
 </p>
 
 #### Pseudocode of Nested crossvalidation 
