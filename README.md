@@ -64,7 +64,7 @@ To run the code:
 * matplotlib
 
 ## Citation
-If you are interested in using our data, we would appreciate a citation to the paper: <br><br>
+If you are interested in using our data in your research, we would appreciate a citation to the paper: <br><br>
 Bai, C.; Chen, Y.-P.; Wolach, A.; Anthony, L.; Mardini, M.T. Using Smartwatches to Detect Face Touching. Sensors 2021, 21, 6528. https://doi.org/10.3390/s21196528
 
 
