@@ -1,3 +1,7 @@
+## Citation
+<b>Please cite our paper if you use our data in your research work: </b><br><br>
+Bai, C.; Chen, Y.-P.; Wolach, A.; Anthony, L.; Mardini, M.T. Using Smartwatches to Detect Face Touching. Sensors 2021, 21, 6528. https://doi.org/10.3390/s21196528
+
 # Face-touching Recognition 
 <br />
 In this study, we collected accelerometer data from 10 face touching (FT) and non face touching (NFT) activities performed by 10 participants (3 minutes for each activity per participant). We targeted two problems, 1) recognizing FT and NFT activities. 2) individual activity recognition (IAR) using machine learning. The data is collected through Samsung Gear S3 with a sampling rate of 30Hz. 
@@ -63,8 +67,5 @@ To run the code:
 * os
 * matplotlib
 
-## Citation
-<b>Please cite our paper if you use our data in your research work: </b><br><br>
-Bai, C.; Chen, Y.-P.; Wolach, A.; Anthony, L.; Mardini, M.T. Using Smartwatches to Detect Face Touching. Sensors 2021, 21, 6528. https://doi.org/10.3390/s21196528
 
 
