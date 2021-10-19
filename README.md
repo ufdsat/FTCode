@@ -4,13 +4,13 @@ Bai, C.; Chen, Y.-P.; Wolach, A.; Anthony, L.; Mardini, M.T. Using Smartwatches 
 
 # Face-touching Recognition 
 <br />
-In this study, we collected accelerometer data from 10 face touching (FT) and non face touching (NFT) activities performed by 10 participants (3 minutes for each activity per participant). We targeted two problems, 1) recognizing FT and NFT activities. 2) individual activity recognition (IAR) using machine learning. The data is collected through Samsung Gear S3 with a sampling rate of 30Hz. 
+In this study, we collected accelerometer data from 10 face touching (FT) and non face touching (NFT) activities performed by 10 participants (3 minutes for each activity per participant). We targeted two problems, 1) recognizing FT and NFT activities. 2) individual activity recognition (IAR) using machine learning. The data were collected using Samsung Gear S3 with a sampling rate of 30Hz. 
 
 ## Data Preprocessing
-The first 20 and last 5 seconds of the raw accelerometer data were eliminated for each activity. We then splited the raw accelerometer dat into smaller time segments and extracted 49 time- and frequency- domain features.
+The first 20 and last 5 seconds of the raw accelerometer data were eliminated for each activity. We then split the raw accelerometer data into smaller time segments and extracted 49 time- and frequency- domain features.
 
 ## Model Training
-We examined four machine learning algorithms: 1) logistic regression, 2) support vector machine, 3) decision tree and 4) random forest. For training and testing those models, we used nested crossvalidation (nested-CV) with 10 outer folds and 3 inner folds. The graph and pseudocode of nested crossvalidation are given below.
+We examined four machine learning algorithms: 1) logistic regression, 2) support vector machine, 3) decision tree and 4) random forest. For training and testing these models, we used nested crossvalidation (nested-CV) with 10 outer folds and 3 inner folds. The graph and pseudocode of nested crossvalidation are given below.
 The final performance of the model was reported by averaging the performance of the outer folds. Accuracy, recall, precision, F1-score and area under the curve (AUC) metrics were used to evaluate the performance of each machine learning method on the binary classification task. Accuracy, macro recall, macro precision, and macro F1-score were used for multiclass classification.
 
 ### Hyperparameters tuned for each classifier
