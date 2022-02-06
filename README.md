@@ -2,6 +2,7 @@
 <b>Please cite our paper if you use our data in your research work: </b><br><br>
 Bai, C.; Chen, Y.-P.; Wolach, A.; Anthony, L.; Mardini, M.T. Using Smartwatches to Detect Face Touching. Sensors 2021, 21, 6528. https://doi.org/10.3390/s21196528
 <br />
+<br />
 Chen YP, Bai C, Wolach A, Mardini M, Anthony L. Detecting Face Touching with Dynamic Time Warping on Smartwatches: A Preliminary Study. InCompanion Publication of the 2021 International Conference on Multimodal Interaction 2021 Oct 18 (pp. 19-24). https://doi.org/10.1145/3461615.3485433
 
 # Face-touching Recognition 
